@@ -7,6 +7,8 @@ type PostProps = {
 	posts: any[]
 }
 export default function PostList({ posts }: PostProps) {
+	console.log(123)
+
 	return (
 		<>
 			<div>PostList</div>
